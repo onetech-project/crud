@@ -1,0 +1,30 @@
+GET http://localhost:4000/warehouse HTTP/1.1
+
+###
+
+GET http://localhost:4000/warehouse/[_id] HTTP/1.1
+
+###
+
+POST http://localhost:4000/warehouse/ HTTP/1.1
+content-type: application/json
+
+{
+	"name": "",
+	"address": ""
+}
+
+###
+
+PUT http://localhost:4000/warehouse/[_id] HTTP/1.1
+content-type: application/json
+
+{
+	"name": "",
+	"address": ""
+}
+
+###
+
+DELETE http://localhost:4000/warehouse/[_id] HTTP/1.1
+content-type: application/json
